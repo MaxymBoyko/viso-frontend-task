@@ -11,7 +11,9 @@
   "scripts": {
     "start": "vite",
     "start-local": "vite --config ./vite.config.local.js",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
