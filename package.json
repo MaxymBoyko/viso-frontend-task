@@ -1,6 +1,7 @@
 {
   "type": "module",
   "homepage": "https://maxymboyko.github.io/viso-frontend-task/",
+  "private":"false",
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.5.1",
     "@vis.gl/react-google-maps": "latest",
@@ -14,7 +15,7 @@
     "start-local": "vite --config ./vite.config.local.js",
     "build": "vite build",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
