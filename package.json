@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "homepage": "https://maxymboyko.github.io/viso-frontend-task/",
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.5.1",
     "@vis.gl/react-google-maps": "latest",
