@@ -1,0 +1,18 @@
+.list-quests {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    padding: 25px;
+    z-index: 10;        
+}
+
+.quest-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marker-text {
+    background-color: rgb(255, 94, 94);
+    padding: 0 5px;
+    border-radius: 100%;
+}
